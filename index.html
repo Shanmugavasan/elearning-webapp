@@ -1,90 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="icon" type="image/x-icon" href="logo.png" />
-    <title>Apticode</title>
-    <link rel="stylesheet" href="home.css" />
-  </head>
+<body>
+        <head>
+            <link rel="icon" type="image/x-icon" href="logo.png" />
+            <title>Login</title>
+            <link rel="stylesheet" href="index.css" />
+          </head>
 
-  <body>
-    <header>
-      <nav class="navbar">
-        <table>
-          <!--logo-->
-          <th>
-            <a href="index.html">
-              <img id="logo" src="logo.png" alt="logo" />
-            </a>
-          </th>
-          <!--heading-->
-          <th>
-            <div id="heading">
-              <h1>Heading</h1>
-            </div>
-          </th>
-          <!--buttons-->
-          <th>
-            <div class="navbuttons">
-              <table>
-                <th>
-                  <a href="sample.html"
-                    ><button class="button-nav-main" type="button">SAMPLEBUTTON</button></a
-                  >
-                </th>
-                <th>
-                  <a href="sample.html"
-                    ><button class="button-nav-main" type="button">SAMPLEBUTTON</button></a
-                  >
-                </th>
-                <th>
-                  <a href="sample.html"
-                    ><button class="button-nav-main" type="button">SAMPLEBUTTON</button></a
-                  >
-                </th>
-                <th>
-                  <a href="sample.html"
-                    ><button class="button-nav-main" type="button">SAMPLEBUTTON</button></a
-                  >
-                </th>
-              </table>
-            </div>
-          </th>
-          <th>
-            <div>
-              <a href="user.html" ><img id="userimg" src="userimg.png" /></a>
-            </div>
-          </th>
-        </table>
-      </nav>
-      <br><br><br><br><br><br><br><br>
-    </header>
-    <h1>
-      start
-    </h1>
-    <br>
-    <br>
-    <br>
-    <h1>...</h1>
-    <br>
-    <br>
-    <br>
-    <h1>...</h1>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h1>...</h1>
-    <br>
-    <br>
-    <br>
-    <h1>...</h1>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h1>end</h1>
-  </body>
+<header>
+    <nav class="navbar">
+      <table>
+        <!--logo-->
+        <th>
+          <a href="index.html">
+            <img id="logo" src="logo.png" alt="logo" />
+          </a>
+        </th>
+        <!--heading-->
+        <th>
+          <div id="heading">
+            <h1>Heading</h1>
+          </div>
+        </th>
+        <!--buttons-->
+        <th>
+          <div class="navbuttons">
+            <table>
+              <th>
+                <a href="about.html"
+                  ><button class="button-nav-main" type="button">About Us</button></a
+                >
+              </th>
+              <th>
+                <a href="shanmugavasan@gmail.com"
+                  ><button class="button-nav-main" type="button">Contact Us</button></a
+                >
+              </th>
+            </table>
+          </div>
+        </th>
+      </table>
+    </nav>
+    <br><br><br>
+  </header>
+  <div class="container">
+    <div class="box" id="login-box">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Username" id="login-username">
+            <input type="password" placeholder="Password" id="login-password">
+            <button type="submit" class="button" id="login-button">Login</button>
+        </form>
+    </div>
+    <div class="box" id="signup-box">
+        <h2>Signup</h2>
+        <form>
+            <input type="text" placeholder="Username" id="signup-username">
+            <input type="password" placeholder="Password" id="signup-password">
+            <button type="submit" class="button" id="signup-button">Signup</button>
+        </form>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
 </html>
