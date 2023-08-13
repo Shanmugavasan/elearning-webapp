@@ -1,0 +1,94 @@
+.navbar{
+    position: fixed;
+    background-color: rgb(71, 62, 62);
+    height: 170px;
+    width: 2000px;
+    margin-top: -10px;
+    margin-left: -10px;
+    box-shadow: 20px;
+}
+#logo{
+    transition: 0.5s;
+    width: 128px;
+    height: 128px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+#logo:hover{
+    transform: scale(1.2);
+}
+#heading{
+    font-size: 40px;
+    margin-left: 50px;
+}
+.navbuttons{
+    position: inherit;
+    margin-left: 1200px;
+
+}
+.button-nav-main{
+    transition: 0.5s;
+    border: none;
+    background-color: rgb(71, 62, 62);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    size: 25px;
+}
+.button-nav-main:hover{
+    background-color: rgb(70, 68, 68);
+    size: 50px;
+}
+.button-nav-main:active{
+    background-color: rgb(70, 68, 68);
+}
+#userimg{
+    margin-left: 20px;
+    height: 85px;
+    width: 85px;
+}
+
+/*================navbar ends here===============*/
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#message {
+    text-align: center;
+    margin-top: 20px;
+    color: #e74c3c;
+}
